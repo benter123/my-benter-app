@@ -1,13 +1,14 @@
 [app]
-title = benter
-package.name = benter
-package.domain = org.benter
-source.dir = .
+title = BenterApp
+package.name = benterapp
+package.domain = org.test
 source.include_exts = py,png,jpg,kv,atlas
-version = 1.0
-requirements = python3,kivy,requests
+version = 0.1
+requirements = python3,kivy
 orientation = portrait
 fullscreen = 0
-android.presplash_color = #FFFFFF
 android.api = 33
-android.minapi = 24
+android.minapi = 21
+android.sdk = 24
+android.ndk = 25b
+android.accept_sdk_license = True
